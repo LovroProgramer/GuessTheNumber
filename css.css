@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(226, 167, 226);
+}
+h1{
+    font-size: 80px;
+    color: blue;
+    position: relative;
+    text-align: center;
+}
+p{
+    position: relative;
+    color: black;
+    font-size: 24px;
+    margin-top: 5%;
+    text-align: center;
+}
+.box{
+    position:relative;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin: auto;
+    border: 5px solid red;
+   
+}
+.check{
+    
+    height: 70px;
+    font-size: 22px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    left: 49.78%;
+    transform: translate(-50%, 40%);
+     
+}
+.check h2{
+    text-align: center;
+    line-height: 65px;
+}
+.guess{
+    height: 145px;
+    width: 140px;
+    font-size: 68px;
+    text-align: center;
+}
+.pedit p{
+    line-height: 20%;
+    color: red;
+    font-size: 48px; 
+    visibility: hidden;
+}

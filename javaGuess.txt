@@ -1,0 +1,7 @@
+'use strict'
+
+const answer = Math.trunc(Math.random()*50+1);console.log(answer);
+document.querySelector('.check').addEventListener('click', function(){
+    console.log(answer);
+});
+
